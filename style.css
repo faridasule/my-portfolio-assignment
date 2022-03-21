@@ -69,6 +69,7 @@ header{
 }
 .bi:hover {
     fill: rgb(245, 148, 245);
+    cursor: pointer;
 }
 .hero-wrapper{
     position: relative;
@@ -77,9 +78,11 @@ header{
     z-index: 1;
     align-items: center;
     margin-top: 10px;
+
 }
 .hero-media-wrapper {
     text-align: center;
+
 }
 .profile-image{
     height: 90px;
@@ -173,6 +176,8 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: auto;
+    
 
 }
 .place-of-work-section h2 {
@@ -183,6 +188,7 @@ main{
 .place-of-work-wrapper{
     text-align: center;
     margin: 40px 0;
+    cursor: pointer;
 
 }
 .place-of-work-pill{
